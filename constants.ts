@@ -1,7 +1,7 @@
 export const METADATA = {
   title: "Portfolio | Smaran Ummaishetty",
   description:
-    "I bridge the gap between design and development. I take responsibility to craft an aesthetic user experience using modern frontend architecture.",
+    "I bridge the gap between design and development. I take responsibility to craft an aesthetic user experience using modern web architecture.",
   siteUrl: "https://ayushsingh.net/",
 };
 
@@ -29,8 +29,8 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "I design and develop web apps",
-  "I develop decentralized apps",
+  "I design and develop stuff",
+  "I develop web applications",
   "I design dynamic user experience",
   "I design and develop motion",
 ];
@@ -40,12 +40,12 @@ export const EMAIL = "smaran.ummadishetty@gmail.com";
 export const SOCIAL_LINKS = {
   linkedin: "https://www.linkedin.com/in/smaran-ummadishetty-24905717b/",
   github: "https://github.com/smaranx",
-  medium: "https://codepen.io/smaran_15/",
+  /*medium: "https://codepen.io/smaran_15/",
   instagram: "https://www.instagram.com/smarxn/",
-  facebook: "https://www.facebook.com/smaran.ummadishetty",
+  facebook: "https://www.facebook.com/smaran.ummadishetty",*/
   dribbble: "https://dribbble.com/smaran",
-  behance: "https://www.behance.net/smaran/",
-  twitter: "https://twitter.com/codinglively",
+  /*behance: "https://www.behance.net/smaran/",*/
+  twitter: "https://twitter.com/xsmaran",
 };
 
 export interface IProject {
