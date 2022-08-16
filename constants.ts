@@ -29,10 +29,10 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "I design and develop stuff",
+  "I design and develop things",
   "I develop web applications",
   "I design user experiences",
-  "I design and develop motion",
+  "I design and develop graphics",
 ];
 
 export const EMAIL = "smaran.ummadishetty@gmail.com";
@@ -61,26 +61,26 @@ export interface IProject {
 
 export const PROJECTS: IProject[] = [
   {
-    name: "FigGen - Figma to Code converter",
-    image: "/projects/figgen.jpg",
+    name: "EggShell - Create, Sell & Connect",
+    image: "/projects/es.jpg",
     blurImage: "/projects/blur/figgen-blur.jpg",
     description: "Pixel perfect HTML/Tailwind for Figma Auto layout designs.",
     gradient: ["#1F6582", "#1ABCFE"],
     url: "https://www.figma.com/community/plugin/1065278044402066626",
-    tech: ["typescript", "figma", "tailwind"],
+    tech: ["next", "figma", "css"],
   },
   {
-    name: "myOKR Website",
+    name: "Rapixo Website",
     image: "/projects/myokr.jpg",
     blurImage: "/projects/blur/myokr-blur.jpg",
     description: "Marketing site for OKR Platform by huminos",
     gradient: ["#153BB9", "#0E2C8B"],
     url: "https://www.myokr.co/",
-    tech: ["react", "next", "gsap", "tailwind"],
+    tech: ["react", "figma", "illustrator", "tailwind"],
   },
   {
-    name: "DLT Labs Website",
-    image: "/projects/dlt-website.jpg",
+    name: "Watchers NFT Website",
+    image: "/projects/watchers.jpg",
     blurImage: "/projects/blur/dlt-website-blur.jpg",
     description: "Marketing site with an Internal CMS from scratch",
     gradient: ["#245B57", "#004741"],
@@ -88,8 +88,8 @@ export const PROJECTS: IProject[] = [
     tech: ["figma", "angular", "gsap"],
   },
   {
-    name: "DL Unify",
-    image: "/projects/dl-unify.jpg",
+    name: "Diverse NFT",
+    image: "/projects/diverse.jpg",
     blurImage: "/projects/blur/dl-unify-blur.jpg",
     description: "Built the application from zero to production 🚀",
     gradient: ["#003052", "#167187"],
@@ -97,7 +97,7 @@ export const PROJECTS: IProject[] = [
     tech: ["tailwind", "angular", "gsap", "figma"],
   },
   {
-    name: "ngx-quill-upload",
+    name: "Degen Rocks Website",
     image: "/projects/ngx-quill-upload.jpg",
     blurImage: "/projects/blur/ngx-quill-upload-blur.jpg",
     description: "NPM Package for Quill JS uploads from Angular",
@@ -106,8 +106,8 @@ export const PROJECTS: IProject[] = [
     tech: ["npm", "angular", "typescript"],
   },
   {
-    name: "Huminos website",
-    image: "/projects/huminos.jpg",
+    name: "Kingdom Of Kawai Website",
+    image: "/projects/kok.jpg",
     blurImage: "/projects/blur/huminos-blur.jpg",
     description: "Marketing site for Huminos bots for workplace by facebook",
     gradient: ["#17007B", "#3A2C79"],
@@ -115,7 +115,7 @@ export const PROJECTS: IProject[] = [
     tech: ["javascript", "sass", "svg", "gulp"],
   },
   {
-    name: "Alpha Aesthetics",
+    name: "R.O.N.M.I.A",
     image: "/projects/alpha.jpg",
     blurImage: "/projects/blur/alpha-blur.jpg",
     description: "Designed and developed the platform",
@@ -124,7 +124,7 @@ export const PROJECTS: IProject[] = [
     tech: ["illustrator", "javascript", "angular"],
   },
   {
-    name: "Amantrya - Polling Web App",
+    name: "Telangana",
     image: "/projects/farewell18.jpg",
     blurImage: "/projects/blur/farewell18-blur.jpg",
     description: "Dark mode dated from 2017 🔥",
@@ -133,7 +133,7 @@ export const PROJECTS: IProject[] = [
     tech: ["javascript", "html", "css"],
   },
   {
-    name: "AKGEC - College Website",
+    name: "DMCE - College Website",
     image: "/projects/akgec.jpg",
     blurImage: "/projects/blur/akgec-blur.jpg",
     description: "Contributed in overall design and development",
@@ -142,7 +142,7 @@ export const PROJECTS: IProject[] = [
     tech: ["javascript", "html", "css"],
   },
   {
-    name: "BDC 2018 Web Portal",
+    name: "Outshade",
     image: "/projects/bdc18.jpg",
     blurImage: "/projects/blur/bdc18-blur.jpg",
     description: "Built the portal from zero to production 🚀",
@@ -151,7 +151,7 @@ export const PROJECTS: IProject[] = [
     tech: ["javascript", "html", "css"],
   },
   {
-    name: "Scrolls 2017 - Website",
+    name: "Outshade",
     image: "/projects/scrolls.jpg",
     blurImage: "/projects/blur/scrolls-blur.jpg",
     description: "Built the portal from zero to production 🚀",
@@ -160,7 +160,7 @@ export const PROJECTS: IProject[] = [
     tech: ["angular", "html", "css"],
   },
   {
-    name: "Cardize - Visiting Cards",
+    name: "Dice game",
     image: "/projects/cardize.jpg",
     blurImage: "/projects/blur/cardize-blur.jpg",
     description: "First web project! Custom visiting card generator",
