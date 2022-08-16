@@ -207,24 +207,26 @@ export enum ItemSize {
 export const TIMELINE: Array<TimelineNodeV2> = [
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2021",
+    title: "2023",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
   },
+
   {
     type: NodeTypes.CHECKPOINT,
-    title: "UI Engineer (Current)",
+    title: "Full Stack Developer (Current)",
     size: ItemSize.SMALL,
-    subtitle: "Working on flipkart wholesale platform 😎",
-    image: "/timeline/flipkart.svg",
-    slideImage: "/timeline/flipkart.gif",
+    subtitle: "Developing Web3 launching platforms 😎",
+    image: "/timeline/L.svg",
+    slideImage: "/timeline/dr.jpg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
+
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2020",
+    title: "2022",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
@@ -234,35 +236,44 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "UI Engineer (freelance)",
+    title: "Web Developer RONMIA (freelance)",
     size: ItemSize.SMALL,
-    subtitle:
-      "Built solutions for employee engagement, productivity and performance 🎯",
-    image: "/timeline/huminos.svg",
-    slideImage: "/timeline/huminos-freelance.jpg",
+    subtitle: "Developed the website from zero to launch 🚀",
+    image: "/timeline/octanner.svg",
+    slideImage: "/timeline/ronmia.jpg",
     shouldDrawLine: true,
-    alignment: Branch.RIGHT,
+    alignment: Branch.LEFT,
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Motion Graphics (freelance)",
+    title: "Creatives Director ",
     size: ItemSize.SMALL,
-    subtitle: "Motion Graphics content for Product Launch 🚀",
+    subtitle: "Contributed towards design and execution of projects 🚀",
     image: "/timeline/octanner.svg",
-    slideImage: "/timeline/aftereffects.jpg",
+    slideImage: "/timeline/rcnm.jpg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "UI Developer (freelance)",
+    size: ItemSize.SMALL,
+    subtitle: "Developed the official college website from scratch 🚀",
+    image: "/timeline/dmce-white.svg",
+    slideImage: "/timeline/dmce.jpg",
+    shouldDrawLine: true,
+    alignment: Branch.RIGHT,
   },
   {
     type: NodeTypes.CONVERGE,
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2019",
+    title: "2021",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
-  },
+  } /*
   {
     type: NodeTypes.CHECKPOINT,
     title: "UI Engineer",
@@ -273,15 +284,14 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     slideImage: "/timeline/dlt-website.jpg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
-  },
+  },*/,
   {
     type: NodeTypes.CHECKPOINT,
-    title: "UX Engineer",
+    title: "Jr. Web Developer",
     size: ItemSize.SMALL,
-    subtitle:
-      "First job! 🥳 Product design and development for employee engagement chatbot suite for workplace by facebook",
-    image: "/timeline/huminos.svg",
-    slideImage: "/timeline/huminos-website.jpg",
+    subtitle: "First job! 🥳 Designed and developed various projects.",
+    image: "/timeline/ot.svg",
+    slideImage: "/timeline/ot.jpg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -290,20 +300,19 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "Graduated from College 🎓",
     size: ItemSize.SMALL,
     subtitle:
-      "Spent 4 years laying the foundation of Frontend Engineering, UI/UX, and Fitness!",
+      "Spent 4 years laying the foundation of Frontend Engineering, UI/UX, and Graphic Design",
     image: "/timeline/akgec.svg",
     slideImage: "/timeline/farewell.jpg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
-  },
-
+  } /*
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2018",
+    title: "2020",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
-  },
+  } /*
   {
     type: NodeTypes.DIVERGE,
   },
@@ -329,14 +338,13 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
-
   {
     type: NodeTypes.CHECKPOINT,
     title: "2017",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.RIGHT,
-  },
+  } /*
   {
     type: NodeTypes.CHECKPOINT,
     title: "1st position in Web Designing, IMSU",
@@ -434,7 +442,14 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     slideImage: "/timeline/xda-rt.jpg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
-  },
+  },*/,
+  ,
+  ,
+  ,
+  ,
+  ,
+  ,
+  ,
 ];
 
 export type TimelineNodeV2 = CheckpointNode | BranchNode;
