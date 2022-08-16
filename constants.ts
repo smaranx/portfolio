@@ -31,7 +31,7 @@ export const MENULINKS = [
 export const TYPED_STRINGS = [
   "I design and develop stuff",
   "I develop web applications",
-  "I design dynamic user experience",
+  "I design user experiences",
   "I design and develop motion",
 ];
 
@@ -40,6 +40,7 @@ export const EMAIL = "smaran.ummadishetty@gmail.com";
 export const SOCIAL_LINKS = {
   linkedin: "https://www.linkedin.com/in/smaran-ummadishetty-24905717b/",
   github: "https://github.com/smaranx",
+  instagram: "https://www.instagram.com/smarxn/",
   /*medium: "https://codepen.io/smaran_15/",
   instagram: "https://www.instagram.com/smarxn/",
   facebook: "https://www.facebook.com/smaran.ummadishetty",*/
