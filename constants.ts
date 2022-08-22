@@ -75,7 +75,7 @@ export const PROJECTS: IProject[] = [
     blurImage: "/projects/blur/myokr-blur.jpg",
     description: "Marketing site for OKR Platform by huminos",
     gradient: ["#153BB9", "#0E2C8B"],
-    url: "https://www.myokr.co/",
+    url: "https://rapixo.netlify.app/",
     tech: ["react", "figma", "illustrator", "tailwind"],
   },
   {
@@ -84,7 +84,7 @@ export const PROJECTS: IProject[] = [
     blurImage: "/projects/blur/dlt-website-blur.jpg",
     description: "Marketing site with an Internal CMS from scratch",
     gradient: ["#245B57", "#004741"],
-    url: "https://www.dltlabs.com/",
+    url: "https://watchersnft.io/",
     tech: ["figma", "angular", "gsap"],
   },
   {
@@ -93,16 +93,16 @@ export const PROJECTS: IProject[] = [
     blurImage: "/projects/blur/dl-unify-blur.jpg",
     description: "Built the application from zero to production 🚀",
     gradient: ["#003052", "#167187"],
-    url: "https://dlunify.dltlabs.com/",
+    url: "https://diverse.com.co",
     tech: ["tailwind", "angular", "gsap", "figma"],
   },
   {
     name: "Degen Rocks Website",
-    image: "/projects/ngx-quill-upload.jpg",
+    image: "/projects/dr.jpg",
     blurImage: "/projects/blur/ngx-quill-upload-blur.jpg",
-    description: "NPM Package for Quill JS uploads from Angular",
+    description: "Website for a Web3 startup",
     gradient: ["#3A0000", "#771E1E"],
-    url: "https://www.npmjs.com/package/ngx-quill-upload",
+    url: "https://www.degen.rocks",
     tech: ["npm", "angular", "typescript"],
   },
   {
@@ -111,7 +111,7 @@ export const PROJECTS: IProject[] = [
     blurImage: "/projects/blur/huminos-blur.jpg",
     description: "Marketing site for Huminos bots for workplace by facebook",
     gradient: ["#17007B", "#3A2C79"],
-    url: "https://bots.huminos.com/",
+    url: "https://kingdomofkawaii.netlify.app/",
     tech: ["javascript", "sass", "svg", "gulp"],
   },
   {
@@ -120,7 +120,7 @@ export const PROJECTS: IProject[] = [
     blurImage: "/projects/blur/alpha-blur.jpg",
     description: "Designed and developed the platform",
     gradient: ["#172839", "#334659"],
-    url: "https://alpha-aesthetics.ayushsingh.net/",
+    url: "https://www.ronmia.com",
     tech: ["illustrator", "javascript", "angular"],
   },
   {
@@ -138,7 +138,7 @@ export const PROJECTS: IProject[] = [
     blurImage: "/projects/blur/akgec-blur.jpg",
     description: "Contributed in overall design and development",
     gradient: ["#5E4C06", "#746528"],
-    url: "https://www.akgec.ac.in/",
+    url: "https://www.dmce.ac.in/",
     tech: ["javascript", "html", "css"],
   },
   {
@@ -165,7 +165,7 @@ export const PROJECTS: IProject[] = [
     blurImage: "/projects/blur/cardize-blur.jpg",
     description: "First web project! Custom visiting card generator",
     gradient: ["#552A04", "#614023"],
-    url: "https://cardize.ayushsingh.net/",
+    url: "https://dice-js.herokuapp.com/",
     tech: ["javascript", "html", "css"],
   },
 ];
