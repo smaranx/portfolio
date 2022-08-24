@@ -8,8 +8,8 @@ const Header = ({ children }: { children: React.ReactNode }) => {
           <Image
             src="/logo.svg"
             alt="Logo - Smaran Ummaishetty"
-            width={22}
-            height={22}
+            width={24}
+            height={24}
           />
         </a>
         <div className="outer-menu relative">
