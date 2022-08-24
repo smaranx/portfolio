@@ -30,7 +30,7 @@ const Footer = () => {
           name="Resume"
           target="_blank"
           rel="noreferrer"
-          href="/Ayush_Resume.pdf"
+          href="/smaran2022.pdf"
         ></Button>
         <Button
           classes="ml-3"
@@ -40,7 +40,7 @@ const Footer = () => {
         ></Button>
       </div>
       <p className="text-center text-sm sm:text-base mt-8">
-        Designed and Developed with ❤️ by Smaran
+        Developed by Smaran Ummadishetty
       </p>
     </>
   );
