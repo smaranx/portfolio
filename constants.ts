@@ -1,5 +1,5 @@
 export const METADATA = {
-  title: "Portfolio | Smaran Ummaishetty",
+  title: "Portfolio | Smaran Ummadishetty",
   description:
     "I bridge the gap between design and development. I take responsibility to craft an aesthetic user experience using modern web architecture.",
   siteUrl: "",
@@ -229,7 +229,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     type: NodeTypes.CHECKPOINT,
     title: "District Jt. Director - Graphic Design (Current)",
     size: ItemSize.SMALL,
-    subtitle: "Leading designers in 72 clubs across the district 😎",
+    subtitle: "Leading designers across 72 clubs in the district 😎",
     image: "/timeline/3142.svg",
     slideImage: "/timeline/3142.jpg",
     shouldDrawLine: true,
