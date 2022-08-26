@@ -123,7 +123,7 @@ export const PROJECTS: IProject[] = [
     gradient: ["#172839", "#334659"],
     url: "https://www.ronmia.com",
     tech: ["figma", "javascript", "html", "css"],
-  },
+  } /*
   {
     name: "YearOfAI 2020 ",
     image: "/projects/telengana.png",
@@ -132,7 +132,7 @@ export const PROJECTS: IProject[] = [
     gradient: ["#142D46", "#2E4964"],
     url: "https://ai.telangana.gov.in//",
     tech: ["figma", "react", "tailwind"],
-  },
+  },*/,
   {
     name: "DMCE - College Website",
     image: "/projects/dmce.jpg",
@@ -141,7 +141,7 @@ export const PROJECTS: IProject[] = [
     gradient: ["#5E4C06", "#746528"],
     url: "https://www.dmce.ac.in/",
     tech: ["javascript", "html", "css"],
-  },
+  } /*
   {
     name: "TSIC",
     image: "/projects/6.png",
@@ -159,7 +159,7 @@ export const PROJECTS: IProject[] = [
     gradient: ["#685506", "#7B6921"],
     url: "https://procom.in/",
     tech: ["angular", "html", "css"],
-  },
+  },*/,
   {
     name: "Dice game",
     image: "/projects/dice.jpg",
