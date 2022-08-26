@@ -262,7 +262,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle: "Contributed towards design and execution of projects 🚀",
     image: "/timeline/rcnm.svg",
-    slideImage: "/timeline/rcnm.jpg",
+    slideImage: "/timeline/rcnm.png",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
