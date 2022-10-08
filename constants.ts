@@ -40,7 +40,7 @@ export const EMAIL = "smaran.ummadishetty@gmail.com";
 export const SOCIAL_LINKS = {
   linkedin: "https://www.linkedin.com/in/smaran-ummadishetty-24905717b/",
   github: "https://github.com/smaranx",
-  instagram: "https://www.instagram.com/smarxn/",
+  instagram: "https://www.instagram.com/smaransway/",
   /*medium: "https://codepen.io/smaran_15/",
   instagram: "https://www.instagram.com/smarxn/",
   facebook: "https://www.facebook.com/smaran.ummadishetty",*/
