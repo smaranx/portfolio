@@ -42,7 +42,7 @@ export const SOCIAL_LINKS = {
   github: "https://github.com/smaranx",
   instagram: "https://www.instagram.com/smaransway/",
   /*medium: "https://codepen.io/smaran_15/",
-  instagram: "https://www.instagram.com/smarxn/",
+  instagram: "https://www.instagram.com/smaran.studio/",
   facebook: "https://www.facebook.com/smaran.ummadishetty",*/
   dribbble: "https://dribbble.com/smaran",
   /*behance: "https://www.behance.net/smaran/",*/
