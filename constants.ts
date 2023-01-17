@@ -40,7 +40,7 @@ export const EMAIL = "smaran.ummadishetty@gmail.com";
 export const SOCIAL_LINKS = {
   linkedin: "https://www.linkedin.com/in/smaran-ummadishetty-24905717b/",
   github: "https://github.com/smaranx",
-  instagram: "https://www.instagram.com/smaransway/",
+  instagram: "https://www.instagram.com/smaran.studio/",
   /*medium: "https://codepen.io/smaran_15/",
   instagram: "https://www.instagram.com/smaran.studio/",
   facebook: "https://www.facebook.com/smaran.ummadishetty",*/
@@ -213,25 +213,13 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     shouldDrawLine: false,
     alignment: Branch.LEFT,
   },
-
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Full Stack Developer (Current)",
+    title: "UI/UX Designer (Current)",
     size: ItemSize.SMALL,
-    subtitle: "Developing Web3 launching platforms 😎",
-    image: "/timeline/degen.svg",
-    slideImage: "/timeline/diverse.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  },
-
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "District Jt. Director - Graphic Design (Current)",
-    size: ItemSize.SMALL,
-    subtitle: "Leading designers across 72 clubs in the district 😎",
-    image: "/timeline/3142.svg",
-    slideImage: "/timeline/3142.jpg",
+    subtitle: "Designing and Improving experiences 😎",
+    image: "/timeline/dspl.svg",
+    slideImage: "/timeline/dspp.svg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -248,6 +236,26 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
+    title: "District Jt. Director - Graphic Design (Current)",
+    size: ItemSize.SMALL,
+    subtitle: "Leading designers across 72 clubs in the district 😎",
+    image: "/timeline/3142.svg",
+    slideImage: "/timeline/3142.jpg",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Full Stack Developer",
+    size: ItemSize.SMALL,
+    subtitle: "Developing Web3 launching platforms 😎",
+    image: "/timeline/degen.svg",
+    slideImage: "/timeline/diverse.jpg",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
     title: "Web Developer (freelance)",
     size: ItemSize.SMALL,
     subtitle: "Developed the website from zero to launch 🚀",
@@ -256,7 +264,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
-  {
+  /*{
     type: NodeTypes.CHECKPOINT,
     title: "Creatives Director ",
     size: ItemSize.SMALL,
@@ -265,7 +273,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     slideImage: "/timeline/rcnm.jpg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
-  },
+  },*/
   {
     type: NodeTypes.CHECKPOINT,
     title: "Web Developer (freelance)",
