@@ -248,7 +248,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     type: NodeTypes.CHECKPOINT,
     title: "Full Stack Developer",
     size: ItemSize.SMALL,
-    subtitle: "Developing Web3 launching platforms 😎",
+    subtitle: "Developing Web3 launching platforms 🔥",
     image: "/timeline/degen.svg",
     slideImage: "/timeline/diverse.jpg",
     shouldDrawLine: true,
