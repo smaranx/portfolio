@@ -218,7 +218,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "UI/UX Designer (Current)",
     size: ItemSize.SMALL,
     subtitle: "Designing experiences 😎",
-    image: "https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/5e/ee/10/5eee102f-c991-135e-e6d0-1810cb0fee0b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png",
+    image: "/timeline/dspl.svg",
     slideImage: "/timeline/dspp.svg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
