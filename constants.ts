@@ -218,7 +218,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "UI/UX Designer (Current)",
     size: ItemSize.SMALL,
     subtitle: "Designing experiences 😎",
-    image: "/timeline/dspl.svg",
+    image: "https://api.finity.in/static/img/amc-logo/low-res/dsp.png",
     slideImage: "/timeline/dspp.svg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
