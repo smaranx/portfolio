@@ -217,7 +217,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     type: NodeTypes.CHECKPOINT,
     title: "UI/UX Designer (Current)",
     size: ItemSize.SMALL,
-    subtitle: "Designing and Improving experiences 😎",
+    subtitle: "Designing experiences 😎",
     image: "/timeline/dspl.svg",
     slideImage: "/timeline/dspp.svg",
     shouldDrawLine: true,
