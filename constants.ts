@@ -232,9 +232,6 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     alignment: Branch.LEFT,
   },
   {
-    type: NodeTypes.DIVERGE,
-  },
-  {
     type: NodeTypes.CHECKPOINT,
     title: "District Jt. Director - Graphic Design (Current)",
     size: ItemSize.SMALL,
@@ -243,6 +240,9 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     slideImage: "/timeline/3142.jpg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.DIVERGE,
   },
   {
     type: NodeTypes.CHECKPOINT,
