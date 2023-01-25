@@ -86,7 +86,7 @@ export const PROJECTS: IProject[] = [
     description: "NFT Launcing Website for Watchers NFT.",
     gradient: ["#245B57", "#004741"],
     url: "https://watchersnft.io/",
-    tech: ["figma", "react", "gsap"],
+    tech: ["figma", "react", "sass", "gsap"],
   },
   {
     name: "Diverse NFT",
@@ -104,7 +104,7 @@ export const PROJECTS: IProject[] = [
     description: "Website for a Web3 startup",
     gradient: ["#3A0000", "#771E1E"],
     url: "https://www.degen.rocks",
-    tech: ["npm", "angular", "typescript"],
+    tech: ["npm", "figma", "angular", "typescript"],
   },
   {
     name: "Kingdom Of Kawai Website",
@@ -140,7 +140,7 @@ export const PROJECTS: IProject[] = [
     description: "Contributed in overall design and development",
     gradient: ["#5E4C06", "#746528"],
     url: "https://www.dmce.ac.in/",
-    tech: ["javascript", "html", "css"],
+    tech: ["javascript", "html", "css", "figma"],
   },
   {
     name: "TSIC",
@@ -158,7 +158,7 @@ export const PROJECTS: IProject[] = [
     description: "A Website for a Home Automation Company 🚀",
     gradient: ["#685506", "#7B6921"],
     url: "https://procom.in/",
-    tech: ["angular", "html", "css"],
+    tech: ["figma", "angular", "html", "css"],
   },
   {
     name: "Dice game",
@@ -218,8 +218,8 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "UI/UX Designer (Current)",
     size: ItemSize.SMALL,
     subtitle: "Designing experiences 😎",
-    image: "/timeline/dspl 1.svg",
-    slideImage: "/timeline/dspp 1.svg",
+    image: "/timeline/dspl.svg",
+    slideImage: "/timeline/dspp.svg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -232,6 +232,9 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     alignment: Branch.LEFT,
   },
   {
+    type: NodeTypes.DIVERGE,
+  },
+  {
     type: NodeTypes.CHECKPOINT,
     title: "District Jt. Director - Graphic Design (Current)",
     size: ItemSize.SMALL,
@@ -242,13 +245,10 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     alignment: Branch.LEFT,
   },
   {
-    type: NodeTypes.DIVERGE,
-  },
-  {
     type: NodeTypes.CHECKPOINT,
     title: "Full Stack Developer",
     size: ItemSize.SMALL,
-    subtitle: "Developing Web3 launching platforms 🔥",
+    subtitle: "Developed Web3 launching platforms 🔥",
     image: "/timeline/degen.svg",
     slideImage: "/timeline/diverse.jpg",
     shouldDrawLine: true,
