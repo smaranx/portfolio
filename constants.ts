@@ -236,7 +236,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },
   {
     type: NodeTypes.CHECKPOINT,
-    title: "District Jt. Director - Graphic Design (Current)",
+    title: "District Jt. Creatives Director (Current)",
     size: ItemSize.SMALL,
     subtitle: "Leading designers across 72 clubs in the district 😎",
     image: "/timeline/3142.svg",
