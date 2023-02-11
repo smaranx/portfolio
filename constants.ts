@@ -260,7 +260,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle: "Developed the website from zero to launch 🚀",
     image: "/timeline/ronmia.svg",
-    slideImage: "/timeline/ronmia.JPG",
+    slideImage: "/timeline/ronmiaNew.png",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
