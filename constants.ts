@@ -307,9 +307,9 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },*/,
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Jr. Web Developer",
+    title: "Design Intern",
     size: ItemSize.SMALL,
-    subtitle: "First job! 🥳 Designed and developed various projects.",
+    subtitle: "First job! 🥳 Designed for various projects.",
     image: "/timeline/outshade.svg",
     slideImage: "/timeline/outshade.jpg",
     shouldDrawLine: true,
