@@ -60,7 +60,7 @@ export interface IProject {
 }
 
 export const PROJECTS: IProject[] = [
-  {
+  /*{
     name: "EggShell - Create, Sell & Connect",
     image: "/projects/eggshell.jpg",
     blurImage: "/projects/blur/egshell.jpg",
@@ -68,7 +68,16 @@ export const PROJECTS: IProject[] = [
       "An NFT Marketplace for artists and influencers to create, sell and connect.",
     gradient: ["#1F6582", "#1ABCFE"],
     url: "https://graceful-puppy-f9844a.netlify.app/",
-    tech: ["next", "figma", "css"],
+    tech: ["next", "figma", "css"]
+  },*/
+  {
+    name: "DSP Mutual Funds",
+    image: "/projects/dsp.jpg",
+    blurImage: "/projects/blur/rapixo.jpg",
+    description: "Designing web and mobile experiences",
+    gradient: ["#1F6582", "#1ABCFE"],
+    url: "https://dspim.com/",
+    tech: ["figma", "illustrator", "html", "css", "javascript"],
   },
   {
     name: "Rapixo Website",
@@ -79,7 +88,7 @@ export const PROJECTS: IProject[] = [
     url: "https://rapixo.netlify.app/",
     tech: ["react", "figma", "illustrator", "tailwind"],
   },
-  {
+  /*{
     name: "Watchers NFT Website",
     image: "/projects/watchers.jpg",
     blurImage: "/projects/blur/watchers.jpg",
@@ -87,7 +96,7 @@ export const PROJECTS: IProject[] = [
     gradient: ["#245B57", "#004741"],
     url: "https://watchersnft.io/",
     tech: ["figma", "react", "sass", "gsap"],
-  },
+  },*/
   {
     name: "Diverse NFT",
     image: "/projects/diverse.jpg",
@@ -96,7 +105,7 @@ export const PROJECTS: IProject[] = [
     gradient: ["#003052", "#167187"],
     url: "https://diverse.com.co",
     tech: ["tailwind", "angular", "sass", "figma"],
-  },
+  } /*
   {
     name: "Degen Rocks Website",
     image: "/projects/dr.jpg",
@@ -105,7 +114,7 @@ export const PROJECTS: IProject[] = [
     gradient: ["#3A0000", "#771E1E"],
     url: "https://www.degen.rocks",
     tech: ["npm", "figma", "angular", "typescript"],
-  },
+  },*/,
   {
     name: "Kingdom Of Kawai Website",
     image: "/projects/kok.jpg",
@@ -121,12 +130,12 @@ export const PROJECTS: IProject[] = [
     blurImage: "/projects/blur/ronmia.jpg",
     description: "Designed and developed the club website",
     gradient: ["#172839", "#334659"],
-    url: "https://www.ronmia.com",
+    url: "https://www.ronmia.in",
     tech: ["figma", "javascript", "html", "css"],
   },
   {
     name: "YearOfAI 2020 ",
-    image: "/projects/telengana.png",
+    image: "/projects/telai.jpg",
     blurImage: "/projects/blur/ai.jpg",
     description: "A website for a Government of Telangana Initiative 🔥",
     gradient: ["#142D46", "#2E4964"],
@@ -136,12 +145,12 @@ export const PROJECTS: IProject[] = [
   {
     name: "DMCE - College Website",
     image: "/projects/dmce.jpg",
-    blurImage: "/projects/blur/dmce.jpg",
-    description: "Contributed in overall design and development",
+    blurImage: "/projects/blur/dmcel.jpg",
+    description: "Designed & Developed College Website",
     gradient: ["#5E4C06", "#746528"],
     url: "https://www.dmce.ac.in/",
     tech: ["javascript", "html", "css", "figma"],
-  },
+  } /*
   {
     name: "TSIC",
     image: "/projects/6.png",
@@ -150,7 +159,7 @@ export const PROJECTS: IProject[] = [
     gradient: ["#470700", "#712A23"],
     url: "https://teamtsic.telangana.gov.in/",
     tech: ["javascript", "html", "css"],
-  },
+  },*/,
   {
     name: "PROCOM",
     image: "/projects/procom.jpg",
@@ -160,7 +169,7 @@ export const PROJECTS: IProject[] = [
     url: "https://procom.in/",
     tech: ["figma", "angular", "html", "css"],
   },
-  {
+  /*{
     name: "Dice game",
     image: "/projects/dice.jpg",
     blurImage: "/projects/blur/dice.jpg",
@@ -168,7 +177,7 @@ export const PROJECTS: IProject[] = [
     gradient: ["#552A04", "#614023"],
     url: "https://dice-js.herokuapp.com/",
     tech: ["javascript", "html", "css"],
-  },
+  },*/
 ];
 
 export const SKILLS = {
@@ -218,8 +227,8 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "UI/UX Designer (Current)",
     size: ItemSize.SMALL,
     subtitle: "Designing experiences 😎",
-    image: "/timeline/dspl 1.svg",
-    slideImage: "/timeline/dspp 1.svg",
+    image: "/timeline/dspl.svg",
+    slideImage: "/timeline/dspp.svg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -238,13 +247,13 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     type: NodeTypes.CHECKPOINT,
     title: "District Technology Director (Current)",
     size: ItemSize.SMALL,
-    subtitle: "",
+    subtitle: "Incharge of digital developments in the district 😎",
     image: "/timeline/3142.svg",
     slideImage: "/timeline/3142.jpg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
-  {
+  /*{
     type: NodeTypes.CHECKPOINT,
     title: "Full Stack Developer",
     size: ItemSize.SMALL,
@@ -253,14 +262,14 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     slideImage: "/timeline/diverse.jpg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
-  },
+  },*/
   {
     type: NodeTypes.CHECKPOINT,
     title: "Web Developer (freelance)",
     size: ItemSize.SMALL,
     subtitle: "Developed the website from zero to launch 🚀",
     image: "/timeline/ronmia.svg",
-    slideImage: "/timeline/ronmiaNew.png",
+    slideImage: "/timeline/ron.JPG",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
@@ -278,7 +287,8 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     type: NodeTypes.CHECKPOINT,
     title: "Web Developer (freelance)",
     size: ItemSize.SMALL,
-    subtitle: "Developed the official college website from scratch 🚀",
+    subtitle:
+      "Designed & Developed the official college website from scratch 🚀",
     image: "/timeline/dmce.svg",
     slideImage: "/timeline/dmce.JPG",
     shouldDrawLine: true,
@@ -307,9 +317,9 @@ export const TIMELINE: Array<TimelineNodeV2> = [
   },*/,
   {
     type: NodeTypes.CHECKPOINT,
-    title: "Design Intern",
+    title: "Jr. Web Developer",
     size: ItemSize.SMALL,
-    subtitle: "First job! 🥳 Designed for various projects.",
+    subtitle: "First job! 🥳 Designed and developed various projects.",
     image: "/timeline/outshade.svg",
     slideImage: "/timeline/outshade.jpg",
     shouldDrawLine: true,
