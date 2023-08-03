@@ -29,10 +29,10 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "I design and develop things",
-  "I develop web applications",
+  "I design things",
   "I design user experiences",
   "I design and develop graphics",
+  "I develop web applications",
 ];
 
 export const EMAIL = "smaran.ummadishetty@gmail.com";
@@ -181,7 +181,9 @@ export const PROJECTS: IProject[] = [
 ];
 
 export const SKILLS = {
-  frontend: [
+  userInterface: ["figma", "sketch"],
+  other: ["git", "webpack", "gulp", "lightroom", "aftereffects", "illustrator", "photoshop"],
+    frontend: [
     "javascript",
     "react",
     "redux",
@@ -194,8 +196,6 @@ export const SKILLS = {
     "html",
     "css",
   ],
-  userInterface: ["figma", "sketch", "illustrator", "photoshop"],
-  other: ["git", "webpack", "gulp", "lightroom", "aftereffects"],
 };
 
 export enum Branch {
