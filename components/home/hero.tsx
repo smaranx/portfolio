@@ -90,7 +90,7 @@ const HeroSection = React.memo(() => {
           name="Resume"
           target="_blank"
           rel="noreferrer"
-          href="/smaran2022.pdf"
+          href="https://www.figma.com/proto/p2aFmfSjPita3X9nvyF4pF/Interactive-Resume?page-id=53%3A2&type=design&node-id=514-456&viewport=789%2C664%2C0.15&t=t1mq1jIBDkDVvQ8X-1&scaling=scale-down&starting-point-node-id=514%3A456"
         ></Button>
         <Button
           classes="ml-3"
