@@ -181,20 +181,36 @@ export const PROJECTS: IProject[] = [
 ];
 
 export const SKILLS = {
-  userInterface: ["figma", "sketch"],
-  other: ["git", "webpack", "gulp", "lightroom", "aftereffects", "illustrator", "photoshop"],
-    frontend: [
+  userInterface: [
+    "figma",
+    "sketch",
+    "adobexd",
+    "protopie",
+    "svg",
+    "illustrator",
+    "photoshop",
+  ],
+  frontend: [
     "javascript",
     "react",
-    "redux",
+    //"redux",
     "next",
     "angular",
-    "gsap",
+    //"gsap",
     "tailwind",
-    "sass",
-    "svg",
+    //"sass",
+    //"svg",
     "html",
     "css",
+  ],
+  other: [
+    "git",
+    "webpack",
+    // "gulp",
+    "lightroom",
+    "aftereffects",
+    //"illustrator",
+    //"photoshop",
   ],
 };
 
@@ -253,17 +269,17 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
-  /*{
+  {
     type: NodeTypes.CHECKPOINT,
-    title: "Full Stack Developer",
+    title: "UI/UX Engineer",
     size: ItemSize.SMALL,
-    subtitle: "Developed Web3 launching platforms 🔥",
+    subtitle: "Designed & Developed Web3 launching platforms 🔥",
     image: "/timeline/degen.svg",
     slideImage: "/timeline/diverse.jpg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
-  },*/
-  {
+  },
+  /*{
     type: NodeTypes.CHECKPOINT,
     title: "Web Developer (freelance)",
     size: ItemSize.SMALL,
@@ -283,17 +299,7 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },*/
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Web Developer (freelance)",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Designed & Developed the official college website from scratch 🚀",
-    image: "/timeline/dmce.svg",
-    slideImage: "/timeline/dmce.JPG",
-    shouldDrawLine: true,
-    alignment: Branch.RIGHT,
-  },
+
   {
     type: NodeTypes.CONVERGE,
   },
@@ -314,7 +320,29 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     slideImage: "/timeline/dlt-website.jpg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Designer Intern(freelance)",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Designed & Developed the official college website from scratch 🚀",
+    image: "/timeline/dmce.svg",
+    slideImage: "/timeline/dmce.JPG",
+    shouldDrawLine: true,
+    alignment: Branch.RIGHT,
   },*/,
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "Web Design Intern",
+    size: ItemSize.SMALL,
+    subtitle:
+      "Designed & Developed the official college website from scratch 🚀",
+    image: "/timeline/dmce.svg",
+    slideImage: "/timeline/dmce.JPG",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
   {
     type: NodeTypes.CHECKPOINT,
     title: "Jr. Web Developer",
@@ -324,18 +352,8 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     slideImage: "/timeline/outshade.jpg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
-  } /*
-  {
-    type: NodeTypes.CHECKPOINT,
-    title: "Graduated from College 🎓",
-    size: ItemSize.SMALL,
-    subtitle:
-      "Spent 4 years laying the foundation of Frontend Engineering, UI/UX, and Graphic Design",
-    image: "/timeline/akgec.svg",
-    slideImage: "/timeline/farewell.jpg",
-    shouldDrawLine: true,
-    alignment: Branch.LEFT,
-  } /*
+  },
+  /*
   {
     type: NodeTypes.CHECKPOINT,
     title: "2020",
@@ -472,7 +490,8 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     slideImage: "/timeline/xda-rt.jpg",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
-  },*/,
+  },*/
+  ,
   ,
   ,
   ,
