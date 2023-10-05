@@ -31,7 +31,7 @@ export const MENULINKS = [
 export const TYPED_STRINGS = [
   "I design things",
   "I design user experiences",
-  "I design and develop graphics",
+  "I design and develop interfaces",
   "I develop web applications",
 ];
 
