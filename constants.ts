@@ -88,15 +88,7 @@ export const PROJECTS: IProject[] = [
     url: "https://rapixo.netlify.app/",
     tech: ["react", "figma", "illustrator", "tailwind"],
   },
-  /*{
-    name: "Watchers NFT Website",
-    image: "/projects/watchers.jpg",
-    blurImage: "/projects/blur/watchers.jpg",
-    description: "NFT Launcing Website for Watchers NFT.",
-    gradient: ["#245B57", "#004741"],
-    url: "https://watchersnft.io/",
-    tech: ["figma", "react", "sass", "gsap"],
-  },*/
+ 
   {
     name: "Diverse NFT",
     image: "/projects/diverse.jpg",
@@ -143,8 +135,17 @@ export const PROJECTS: IProject[] = [
     tech: ["figma", "react", "tailwind"],
   },
   {
+    name: "Tejas Engineering",
+    image: "/projects/tejas.jpg",
+    blurImage: "/projects/blur/watchers.jpg",
+    description: "  A Website for heavy engineering fabrictaions",
+    gradient: ["#245B57", "#004741"],
+    url: "https://tejasvengineering.com/",
+    tech: ["figma", "react", "sass", "gsap"],
+  },
+  {
     name: "DMCE - College Website",
-    image: "/projects/dmce.jpg",
+    image: "/projects/dmce.png",
     blurImage: "/projects/blur/dmcel.jpg",
     description: "Designed & Developed College Website",
     gradient: ["#5E4C06", "#746528"],
@@ -233,7 +234,7 @@ export enum ItemSize {
 export const TIMELINE: Array<TimelineNodeV2> = [
   {
     type: NodeTypes.CHECKPOINT,
-    title: "2023",
+    title: "2024",
     size: ItemSize.LARGE,
     shouldDrawLine: false,
     alignment: Branch.LEFT,
@@ -243,6 +244,23 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     title: "UI/UX Designer (Current)",
     size: ItemSize.SMALL,
     subtitle: "Designing experiences 😎",
+    image: "/timeline/promol.svg",
+    slideImage: "/timeline/promo.svg",
+    shouldDrawLine: true,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "2023",
+    size: ItemSize.LARGE,
+    shouldDrawLine: false,
+    alignment: Branch.LEFT,
+  },
+  {
+    type: NodeTypes.CHECKPOINT,
+    title: "UI/UX Design Consultant",
+    size: ItemSize.SMALL,
+    subtitle: "Improved Web & Mobile application expereinces 😎",
     image: "/timeline/dspl.svg",
     slideImage: "/timeline/dspp.svg",
     shouldDrawLine: true,
