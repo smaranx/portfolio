@@ -151,7 +151,7 @@ export const PROJECTS: IProject[] = [
     gradient: ["#5E4C06", "#746528"],
     url: "https://www.dmce.ac.in/",
     tech: ["javascript", "html", "css", "figma"],
-  } /*
+  } ,
   {
     name: "TSIC",
     image: "/projects/6.png",
@@ -160,7 +160,7 @@ export const PROJECTS: IProject[] = [
     gradient: ["#470700", "#712A23"],
     url: "https://teamtsic.telangana.gov.in/",
     tech: ["javascript", "html", "css"],
-  },*/,
+  },
   {
     name: "PROCOM",
     image: "/projects/procom.jpg",
@@ -170,7 +170,7 @@ export const PROJECTS: IProject[] = [
     url: "https://procom.in/",
     tech: ["figma", "angular", "html", "css"],
   },
-  /*{
+  {
     name: "Dice game",
     image: "/projects/dice.jpg",
     blurImage: "/projects/blur/dice.jpg",
@@ -178,7 +178,7 @@ export const PROJECTS: IProject[] = [
     gradient: ["#552A04", "#614023"],
     url: "https://dice-js.herokuapp.com/",
     tech: ["javascript", "html", "css"],
-  },*/
+  },
 ];
 
 export const SKILLS = {
