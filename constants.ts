@@ -194,7 +194,7 @@ export const SKILLS = {
   frontend: [
     "javascript",
     "react",
-    //"redux",
+    "redux",
     "next",
     "angular",
     "gsap",
