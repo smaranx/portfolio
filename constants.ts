@@ -207,7 +207,7 @@ export const SKILLS = {
   other: [
     "git",
     "webpack",
-    // "gulp",
+    "gulp",
     "lightroom",
     "aftereffects",
     "illustrator",
