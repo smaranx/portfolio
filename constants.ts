@@ -210,8 +210,6 @@ export const SKILLS = {
     "gulp",
     "lightroom",
     "aftereffects",
-    "illustrator",
-    "photoshop",
   ],
 };
 
