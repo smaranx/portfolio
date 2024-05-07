@@ -201,6 +201,7 @@ export const SKILLS = {
     "tailwind",
     "sass",
     "svg",*/},
+    "sass",
     "html",
     "css",
   ],
