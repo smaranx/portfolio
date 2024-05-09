@@ -170,7 +170,7 @@ export const PROJECTS: IProject[] = [
     url: "https://procom.in/",
     tech: ["figma", "angular", "html", "css"],
   },
-  {
+ /* {
     name: "Dice game",
     image: "/projects/dice.jpg",
     blurImage: "/projects/blur/dice.jpg",
@@ -178,7 +178,7 @@ export const PROJECTS: IProject[] = [
     gradient: ["#552A04", "#614023"],
     url: "https://dice-js.herokuapp.com/",
     tech: ["javascript", "html", "css"],
-  },
+  },*/
 ];
 
 export const SKILLS = {
