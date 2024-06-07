@@ -80,6 +80,15 @@ export const PROJECTS: IProject[] = [
     tech: ["figma", "illustrator", "html", "css", "javascript"],
   },
   {
+    name: "PROCOM",
+    image: "/projects/procom.jpg",
+    blurImage: "/projects/blur/procom.jpg",
+    description: "A Website for a Home Automation Company 🚀",
+    gradient: ["#685506", "#7B6921"],
+    url: "https://procom.in/",
+    tech: ["figma", "angular", "html", "css"],
+  },
+  {
     name: "Rapixo Website",
     image: "/projects/rapixo.jpg",
     blurImage: "/projects/blur/rapixo.jpg",
@@ -161,7 +170,7 @@ export const PROJECTS: IProject[] = [
     url: "https://teamtsic.telangana.gov.in/",
     tech: ["javascript", "html", "css"],
   },
-  {
+  /*{
     name: "PROCOM",
     image: "/projects/procom.jpg",
     blurImage: "/projects/blur/procom.jpg",
