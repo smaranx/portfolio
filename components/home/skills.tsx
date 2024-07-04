@@ -112,7 +112,7 @@ const SkillsSection = () => {
           <div className="mr-6 mb-6">
             {renderSkillColumn(
               "FRONTEND DEVELOPMENT", 
-              SKILLS.userInterface
+              SKILLS.frontend
               )}
           </div>
           <div>{renderSkillColumn("Other Skills", SKILLS.other)}</div>
