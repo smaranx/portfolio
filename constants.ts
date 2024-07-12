@@ -203,14 +203,14 @@ export const SKILLS = {
   frontEnd: [
     "javascript",
     "react",
-    "angular",
-    "next",
+    /*"angular",
+    "next",*/
     "tailwind",
-    "redux",
+   /* "redux",
     "next",
     "angular",
     "gsap",
-    "tailwind",
+    "tailwind",*/
     "sass",
     "svg",,
     "html",
