@@ -206,11 +206,13 @@ export const SKILLS = {
     /*"angular",
     "next",*/
     "tailwind",
-   /* "redux",
+    "redux",
     "next",
     "angular",
     "gsap",
-    "tailwind",*/
+    "tailwind",
+    "node",
+    "mongodb",
     "sass",
     "svg",,
     "html",
