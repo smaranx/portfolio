@@ -1,5 +1,5 @@
 export const METADATA = {
-  title: "Portfolio | Smaran Ummadishetty",
+  title: "Smaran Ummadishetty - Developer",
   description:
     "I bridge the gap between design and development. I take responsibility to craft an aesthetic user experience using modern web architecture.",
   siteUrl: "",
@@ -203,16 +203,14 @@ export const SKILLS = {
   frontEnd: [
     "javascript",
     "react",
-    /*"angular",
-    "next",*/
     "tailwind",
     "redux",
     "next",
     "angular",
     "gsap",
     "tailwind",
-    "node",
-    "mongodb",
+    /*"node",
+    "mongodb",*/
     "sass",
     "svg",,
     "html",
