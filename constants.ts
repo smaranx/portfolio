@@ -1,5 +1,5 @@
 export const METADATA = {
-  title: "Smaran Ummadishetty - 2022",
+  title: "Smaran Ummadishetty - 2022 Version",
   description:
     "I bridge the gap between design and development. I take responsibility to craft an aesthetic user experience using modern web architecture.",
   siteUrl: "",
